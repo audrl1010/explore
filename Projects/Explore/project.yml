@@ -1,0 +1,57 @@
+targets:
+  Explore:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+      - path: Resources
+      - path: Supporting Files
+    dependencies:
+      - sdk: Foundation.framework
+      - sdk: UIKit.framework
+    preBuildScripts:
+      - path: /bin/sh
+        name: Generate R.swift
+        inputFiles:
+          - $TEMP_DIR/rswift-lastrun
+        outputFiles:
+          - $SRCROOT/Projects/Explore/Resources/R.generated.swift
+        script: |
+          "$PODS_ROOT/R.swift/rswift" generate "$SRCROOT/Projects/Explore/Resources/R.generated.swift"
+    attributes:
+      ProvisioningStyle: Manual
+
+    settings:
+      base:
+        PRODUCT_NAME: Explore
+        PRODUCT_BUNDLE_IDENTIFIER: com.explore.app.ios
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 0
+        INFOPLIST_FILE: "$(SRCROOT)/Projects/Explore/Supporting Files/Info.plist"
+        TARGETED_DEVICE_FAMILY: 1
+        DEVELOPMENT_TEAM: UR8NUQ9B5M
+        PROVISIONING_PROFILE_SPECIFIER: Make Line App Store
+        CODE_SIGN_ENTITLEMENTS: ${SRCROOT}/Projects/Explore/Supporting Files/Explore.entitlements
+      configs:
+        debug:
+          CODE_SIGN_IDENTITY: Apple Development
+        release:
+          CODE_SIGN_IDENTITY: Apple Distribution
+
+  ExploreTests:
+    templates: [UnitTest]
+    templateAttributes:
+      testTarget: Explore
+
+schemes:
+  Explore:
+    build:
+      targets:
+        Explore: all
+        ExploreTests: [test]
+    run:
+      environmentVariables:
+        OS_ACTIVITY_MODE: disable
+    test:
+      gatherCoverageData: true
+      targets: [ExploreTests]

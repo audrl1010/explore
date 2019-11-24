@@ -1,0 +1,10 @@
+.DS_Store
+/.build
+/Packages
+/*.xcworkspace
+/*.xcodeproj
+**/xcuserdata
+**/xcshareddata
+Pods/
+*.generated.swift
+© 2019 GitHub, Inc.

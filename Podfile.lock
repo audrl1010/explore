@@ -1,0 +1,215 @@
+PODS:
+  - Alamofire (5.0.0-rc.2)
+  - BonMot (5.4.1)
+  - CGFloatLiteral (0.5.0)
+  - CocoaLumberjack/Core (3.6.0)
+  - CocoaLumberjack/Swift (3.6.0):
+    - CocoaLumberjack/Core
+  - Differentiator (4.0.1)
+  - KeychainAccess (4.1.0)
+  - Moya (14.0.0-beta.4):
+    - Moya/Core (= 14.0.0-beta.4)
+  - Moya/Core (14.0.0-beta.4):
+    - Alamofire (= 5.0.0-rc.2)
+  - Moya/RxSwift (14.0.0-beta.4):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - Nimble (8.0.4)
+  - PINCache (3.0.1-beta.7):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.7)
+    - PINCache/Core (= 3.0.1-beta.7)
+  - PINCache/Arc-exception-safe (3.0.1-beta.7):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.7):
+    - PINOperation (~> 1.1.1)
+  - PINOperation (1.1.2)
+  - PINRemoteImage/Core (3.0.0-beta.14):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.14):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.14):
+    - PINCache (= 3.0.1-beta.7)
+    - PINRemoteImage/Core
+  - Quick (2.2.0)
+  - R.swift (5.1.0):
+    - R.swift.Library (~> 5.1.0)
+  - R.swift.Library (5.1.0)
+  - RIBs (0.9.3):
+    - RxRelay (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxCocoa (5.0.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxCocoa-Texture (3.1.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+    - Texture (~> 2.7)
+  - RxCodable (1.0.0):
+    - RxCodable/Core (= 1.0.0)
+  - RxCodable/Core (1.0.0):
+    - RxSwift (~> 5.0)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxDataSources-Texture (1.2.5):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+    - Texture (>= 2.7)
+  - RxKeyboard (1.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxOptional (4.1.0):
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.1)
+  - RxViewController (1.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - Stubber (1.5.0)
+  - SwiftLint (0.37.0)
+  - SwiftyColor (1.2.0)
+  - SwiftyImage (1.5.1)
+  - Texture (2.8.1):
+    - Texture/AssetsLibrary (= 2.8.1)
+    - Texture/Core (= 2.8.1)
+    - Texture/MapKit (= 2.8.1)
+    - Texture/Photos (= 2.8.1)
+    - Texture/PINRemoteImage (= 2.8.1)
+    - Texture/Video (= 2.8.1)
+  - Texture/AssetsLibrary (2.8.1):
+    - Texture/Core
+  - Texture/Core (2.8.1)
+  - Texture/MapKit (2.8.1):
+    - Texture/Core
+  - Texture/Photos (2.8.1):
+    - Texture/Core
+  - Texture/PINRemoteImage (2.8.1):
+    - PINRemoteImage/iOS (= 3.0.0-beta.14)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - Texture/Video (2.8.1):
+    - Texture/Core
+  - Then (2.6.0)
+  - URLNavigator (2.3.0)
+
+DEPENDENCIES:
+  - BonMot
+  - CGFloatLiteral
+  - CocoaLumberjack/Swift
+  - KeychainAccess
+  - Moya (= 14.0.0-beta.4)
+  - Moya/RxSwift (= 14.0.0-beta.4)
+  - Nimble
+  - Quick
+  - R.swift
+  - RIBs (from `https://github.com/uber/RIBs.git`, branch `master`)
+  - RxCocoa
+  - RxCocoa-Texture
+  - RxCodable
+  - RxDataSources
+  - RxDataSources-Texture
+  - RxKeyboard
+  - RxOptional
+  - RxRelay
+  - RxSwift
+  - RxViewController
+  - Stubber
+  - SwiftLint
+  - SwiftyColor
+  - SwiftyImage
+  - Texture (from `https://github.com/TextureGroup/Texture.git`, branch `releases/p7.37`)
+  - Then
+  - URLNavigator
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BonMot
+    - CGFloatLiteral
+    - CocoaLumberjack
+    - Differentiator
+    - KeychainAccess
+    - Moya
+    - Nimble
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - Quick
+    - R.swift
+    - R.swift.Library
+    - RxCocoa
+    - RxCocoa-Texture
+    - RxCodable
+    - RxDataSources
+    - RxDataSources-Texture
+    - RxKeyboard
+    - RxOptional
+    - RxRelay
+    - RxSwift
+    - RxViewController
+    - Stubber
+    - SwiftLint
+    - SwiftyColor
+    - SwiftyImage
+    - Then
+    - URLNavigator
+
+EXTERNAL SOURCES:
+  RIBs:
+    :branch: master
+    :git: https://github.com/uber/RIBs.git
+    :submodules: true
+  Texture:
+    :branch: releases/p7.37
+    :git: https://github.com/TextureGroup/Texture.git
+
+CHECKOUT OPTIONS:
+  RIBs:
+    :commit: 58305f7963553b53dbabd76c5a04e4c31e72d243
+    :git: https://github.com/uber/RIBs.git
+    :submodules: true
+  Texture:
+    :commit: dab927bb22b5ca4ec90c89a3b3e7278a2c04b923
+    :git: https://github.com/TextureGroup/Texture.git
+
+SPEC CHECKSUMS:
+  Alamofire: f9450d3c7f6bea2ad62e7a541c3e9b186c7991d6
+  BonMot: aa82119ff2ffa184223d8a31c72aed84fbb009e0
+  CGFloatLiteral: 0328648f666e3cb2263d5ee3972df9d320786d25
+  CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  KeychainAccess: 445e28864fe6d3458b41fa211bcdc39890e8bd5a
+  Moya: 53fa45a72929809e0b8bba44a0a53d8d0827bcfe
+  Nimble: 18d5360282923225d62b09d781f63abc1a0111fc
+  PINCache: 7cb9ae068c8f655717f7c644ef1dff9fd573e979
+  PINOperation: 24b774353ca248fcf87d67b2d61eef42087c125a
+  PINRemoteImage: 81bbff853acc71c6de9e106e9e489a791b8bbb08
+  Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
+  R.swift: 8cbc4fc69b740305b6a17c8a8ed968eb788962d9
+  R.swift.Library: fa85ce1e0d0b7e818cd9e080df910ba54d2776cc
+  RIBs: efceda5df20c1a1e05139232a4638a6242caa92a
+  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxCocoa-Texture: 90abb54f5d153746fe414f4d04e6d2e6cf91d70e
+  RxCodable: 468b37793b66d804a5b1be16e817d7aab408b52b
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxDataSources-Texture: 3606ddbd1b03773d02c8d03bda74fc5f171d6c0f
+  RxKeyboard: 6683c4344304a00f943c158bd8a43ce5469c82a7
+  RxOptional: b1fcd60856807a564c0215c2184b8d33e7826dc2
+  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  RxViewController: 7330a46e5c31cd680db169da4c9fc8676e975a81
+  Stubber: 6cf1160d37f0d1da7afbe1892f65bb7d5984bba4
+  SwiftLint: c078a14d7d7ade75e5507795d185e3da41d844d2
+  SwiftyColor: ac23e6c0b561838c1ef0f554ff170cceba14546b
+  SwiftyImage: 88a8c90ee3963a498de728c4ccdb079b4820cef0
+  Texture: 6811322192a44ed35bcd53772aa8df8965d9796b
+  Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
+  URLNavigator: 2593c0e2d293732ec5c44503cf54dceba1a68085
+
+PODFILE CHECKSUM: ed6491480d5fe1b7a963a9308105bd1c7d13caa5
+
+COCOAPODS: 1.7.5
